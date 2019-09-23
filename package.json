@@ -1,0 +1,32 @@
+{
+  "name": "pdf-merge-cli",
+  "version": "1.0.0",
+  "description": "CLI tool for merging all PDF files in current directory into a single file.",
+  "main": "index.js",
+  "bin": {
+    "brunodeangelis/pdf-merge-cli": "bin/pdf-merge",
+    "pdf-merge": "bin/pdf-merge"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "esm": "^3.2.25",
+    "pdf-merge": "^1.2.0",
+    "short-unique-id": "^1.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "pdf-merge"
+  ],
+  "files": [
+    "bin/",
+    "src/"
+  ],
+  "author": "Bruno De Angelis",
+  "license": "ISC"
+}
